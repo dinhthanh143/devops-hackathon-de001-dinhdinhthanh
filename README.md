@@ -11,6 +11,7 @@
 - Hệ điều hành:  Debian GNU/Linux, 13 (trixie)
 - Phiên bản Nginx: nginx/1.24.0
 - Nơi chạy: VPS GCP
+- Tài khoản: ![alt text](/screenshots/01-user.png)
 
 ## 3. Cấu trúc dự án
 ```text
@@ -32,6 +33,7 @@ devops-hackathon-de001-dinhthanh/
 - Index file: index.html
 - Tên tài khoản: dinhdinhthanh-k24cntt1
 - Allow directive: allow all;
+![alt text](/screenshots/02-nginx.png)
 
 
 ## 5. Tường lửa UFW
@@ -41,6 +43,7 @@ sudo ufw allow 22/tcp
 sudo ufw allow 8088/tcp
 sudo ufw enable
 sudo ufw status verbose
+![alt text](/screenshots/03-ufw.png)
 
 
 Kết quả:
@@ -123,3 +126,6 @@ git pull origin main
 ## 9. Sự cố gặp phải & cách khắc phục (nếu có)
 
 Không có
+
+## 10. Git log
+![alt text](/screenshots/05-git-log.png)
